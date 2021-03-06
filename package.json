@@ -1,0 +1,21 @@
+{
+	"name": "com.mako.scriptable-events",
+	"version": "1.0.0",
+	"displayName": "Scriptable Events",
+	"description": "Create and listen to ScriptableObject Events to decouple code and make events more efficient and easier to implement",
+	"unity": "2019.1",
+	"dependencies": { },
+	"keywords": [
+		"scriptables",
+		"scriptable objects",
+		"event",
+		"events",
+		"event listener",
+		"listener"
+	],
+	"author": {
+		"name": "MakoEdits",
+		"url": "https://github.com/MakoEdits/Unity-Scriptable-Variables"
+	},
+	"type": "library"
+}
