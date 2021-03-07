@@ -60,11 +60,6 @@ public class MyClass : MonoBehaviour
 
 	void Start()
 	{
-		RaiseFloatEvent();
-	}
-
-	public void RaiseFloatEvent()
-	{
 	    myFloatEvent.Raise(value);
 	}
 }
@@ -118,7 +113,7 @@ public class TransformGameEvent : VariableGameEvent<Transform, TransformGameEven
 public class TransformUnityEvent : UnityEvent<Transform> { }
 ```
 
-*The UnityEvent declaration can happen anwhere in code, but needs to be a subclass so that the Unity Inspector will Serialize it.*=
+*The UnityEvent declaration can happen anwhere in code, but needs to be a subclass so that the Unity Inspector will Serialize it.*
 
 ### Making new EventListeners
 
